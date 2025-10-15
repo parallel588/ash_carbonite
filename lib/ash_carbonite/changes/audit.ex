@@ -17,7 +17,7 @@ defmodule AshCarbonite.Resource.Changes.Audit do
           {:ok, _} =
             Carbonite.insert_transaction(
               repo,
-              %{meta: %{resource: to_string(resource), action: action_name}}
+              %{meta: %{resource: inspect(resource), action: action_name}}
             )
 
           do_action.(changeset)
