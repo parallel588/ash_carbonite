@@ -1,3 +1,5 @@
 defmodule AshCarbonite do
-  @moduledoc false
+  @moduledoc """
+  Provides an integration between Ash and Carbonite.
+  """
 end

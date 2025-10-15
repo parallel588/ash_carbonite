@@ -76,12 +76,6 @@ if Code.ensure_loaded?(Igniter) do
       igniter
       |> Igniter.Project.Deps.add_dep({:carbonite, "~> 0.16.0"})
       |> Igniter.add_task("carbonite.gen.initial_migration")
-
-      # |> Ash.Igniter.codegen("add_authentication_resources")
-      # Do your work here and return an updated igniter
-      # igniter
-      # |> Igniter.add_warning("mix ash_carbonite.task.install is not yet implemented")
-      # Igniter.Deps.add_dep(igniter, {:carbonite, "~> 0.16.0"})
     end
   end
 else
