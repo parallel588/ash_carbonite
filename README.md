@@ -1,6 +1,17 @@
+[![Hex version badge](https://img.shields.io/hexpm/v/ash_carbonite.svg)](https://hex.pm/packages/ash_carbonite)
+[![Hexdocs badge](https://img.shields.io/badge/docs-hexdocs-purple)](https://hexdocs.pm/ash_carbonite)
+
 # AshCarbonite
 
-An integration between [Ash](https://ash-hq.org) and [Carbonite](https://github.com/ash-project/carbonite).
+Welcome! `AshCarbonite` is an integration between [Ash](https://ash-hq.org) and [Carbonite](https://github.com/ash-project/carbonite) that provides versioning capabilities for your Ash resources.
+
+## Topics
+
+- [What is AshCarbonite?](documentation/topics/about-ash-carbonite/what-is-ash-carbonite.md)
+
+## Reference
+
+- [AshCarbonite.Resource DSL](documentation/dsls/DSL-AshCarbonite.DataLayer.md)
 
 ## Installation
 
